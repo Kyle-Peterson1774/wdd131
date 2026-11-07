@@ -1,6 +1,6 @@
-// Current year for the copyright line
+// Current year
 const currentYear = new Date().getFullYear();
 document.getElementById("currentyear").textContent = currentYear;
 
-// Date and time the document was last modified
+// Date and time
 document.getElementById("lastModified").textContent = `Last Modification: ${document.lastModified}`;

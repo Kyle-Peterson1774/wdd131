@@ -1,4 +1,4 @@
-/* ---------- Variables ---------- */
+/* Variables */
 :root {
   --primary: #1f3a5f;
   --primary-dark: #142840;
@@ -10,7 +10,7 @@
   --body-font: "Inter", Arial, sans-serif;
 }
 
-/* ---------- Base ---------- */
+/* Base */
 * {
   box-sizing: border-box;
 }
@@ -28,7 +28,7 @@ img {
   display: block;
 }
 
-/* ---------- Header ---------- */
+/* Header */
 header {
   background-color: var(--primary);
   color: #fff;
@@ -36,33 +36,33 @@ header {
 }
 
 header span {
-  display: block;                 /* required: span as a block */
+  display: block;                 /* span as a block */
   font-family: var(--heading-font);
   font-size: 1.5rem;
   padding: 1rem;
 }
 
-/* ---------- Navigation (Flex) ---------- */
+/* Nav (Flex) */
 nav {
   display: flex;
   background-color: var(--primary-dark);
 }
 
 nav a {
-  flex: 1;                        /* equal-width menu items */
+  flex: 1;                        /* equal-width */
   padding: 0.75rem;
   color: #fff;
   text-decoration: none;
   text-align: center;
 }
 
-/* Hover changes only color properties, so nothing shifts */
+/* Hover changes */
 nav a:hover {
   background-color: var(--accent);
   color: var(--primary-dark);
 }
 
-/* ---------- Main (limited width, centered) ---------- */
+/* Main (centered) */
 main {
   max-width: 960px;
   margin: 0 auto;
@@ -75,7 +75,7 @@ h1 {
   text-align: center;
 }
 
-/* ---------- Cards (Grid) ---------- */
+/* Cards (Grid) */
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -90,7 +90,7 @@ main {
 }
 
 main h1 {
-  grid-column: 1 / -1;            /* heading spans both columns */
+  grid-column: 1 / -1;
 }
 
 .card {
@@ -112,7 +112,7 @@ main h1 {
   color: var(--primary);
 }
 
-/* ---------- Footer ---------- */
+/* Footer */
 footer {
   background-color: var(--primary);
   color: #fff;
