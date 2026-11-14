@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Album | Kyle</title>
+  <meta name="description" content="A responsive temple picture album for WDD 131.">
+  <meta name="author" content="Kyle">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/temples.css">
+  <link rel="stylesheet" href="styles/temples-large.css">
+
+  <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-bar">
+      <span class="site-title">Temple Album</span>
+      <button id="menu" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+    </div>
+    <nav class="navigation">
+      <a href="#" class="active">Home</a>
+      <a href="#">Old</a>
+      <a href="#">New</a>
+      <a href="#">Large</a>
+      <a href="#">Small</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Home</h1>
+    <div class="album">
+      <figure>
+        <img src="images/temple-placeholder.webp" alt="Salt Lake Temple" width="400" height="250" loading="lazy">
+        <figcaption>Salt Lake Temple</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple-placeholder.webp" alt="Rome Italy Temple" width="400" height="250" loading="lazy">
+        <figcaption>Rome Italy Temple</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple-placeholder.webp" alt="Laie Hawaii Temple" width="400" height="250" loading="lazy">
+        <figcaption>Laie Hawaii Temple</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple-placeholder.webp" alt="Manti Utah Temple" width="400" height="250" loading="lazy">
+        <figcaption>Manti Utah Temple</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple-placeholder.webp" alt="Washington D.C. Temple" width="400" height="250" loading="lazy">
+        <figcaption>Washington D.C. Temple</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple-placeholder.webp" alt="Mesa Arizona Temple" width="400" height="250" loading="lazy">
+        <figcaption>Mesa Arizona Temple</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple-placeholder.webp" alt="Paris France Temple" width="400" height="250" loading="lazy">
+        <figcaption>Paris France Temple</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple-placeholder.webp" alt="Lima Peru Temple" width="400" height="250" loading="lazy">
+        <figcaption>Lima Peru Temple</figcaption>
+      </figure>
+      <figure>
+        <img src="images/temple-placeholder.webp" alt="Dallas Texas Temple" width="400" height="250" loading="lazy">
+        <figcaption>Dallas Texas Temple</figcaption>
+      </figure>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentyear"></span> 🌎 Kyle 🌎 Texas</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
