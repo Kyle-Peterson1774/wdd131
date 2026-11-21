@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texas | Kyle Peterson | WDD 131</title>
+    <meta name="description" content="Texas at a glance: quick country facts and current weather with a calculated wind chill.">
+    <meta name="author" content="Kyle Peterson">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Texas</h1>
+    </header>
+
+    <main>
+        <picture class="hero">
+            <source media="(min-width: 700px)" srcset="images/texas-large.webp" width="1600" height="900">
+            <img src="images/texas-small.webp" alt="Texas Hill Country landscape with rolling hills under a wide sky" width="700" height="700">
+        </picture>
+
+        <section class="data">
+            <h2>Data</h2>
+            <dl>
+                <dt>Area:</dt>
+                <dd>268,596 sq mi</dd>
+                <dt>Population:</dt>
+                <dd>about 31 million</dd>
+                <dt>Capital:</dt>
+                <dd>Austin</dd>
+                <dt>Languages:</dt>
+                <dd>English, Spanish</dd>
+                <dt>Currency:</dt>
+                <dd>US Dollar (USD)</dd>
+                <dt>Time Zone:</dt>
+                <dd>Central (UTC−6)</dd>
+                <dt>Calling Code:</dt>
+                <dd>+1</dd>
+                <dt>Internet TLD:</dt>
+                <dd>.us</dd>
+            </dl>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <img class="weather-icon" src="images/weather.svg" alt="Partly cloudy icon" width="64" height="64">
+            <dl>
+                <dt>Temperature:</dt>
+                <dd><span id="temperature">45</span> °F</dd>
+                <dt>Conditions:</dt>
+                <dd>Partly Cloudy</dd>
+                <dt>Wind:</dt>
+                <dd><span id="wind-speed">10</span> mph</dd>
+                <dt>Wind Chill:</dt>
+                <dd id="windchill">N/A</dd>
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Kyle Peterson | Texas</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
